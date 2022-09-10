@@ -1,0 +1,169 @@
+/* fuente */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+body {
+  min-height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.navbar.navbar-expand-lg.bg-light {
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  --bs-navbar-brand-margin-end: 0rem;
+  --bs-navbar-padding-y: 0rm;
+}
+
+/* sigueme */
+h3.list-group-heading {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.375rem;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 0.625rem;
+}
+
+/* iconos de redes sociales */
+.list-group.list-group-horizontal {
+  background: none;
+}
+
+i.fa-brands.fa-instagram.fa-2x:hover {
+  color: #e8a0bf;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+i.fa-brands.fa-linkedin-in.fa-2x:hover {
+  color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+i.fa-brands.fa-github.fa-2x:hover {
+  color: #fcc5c0;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+i.fa-solid.fa-user-lock.fa-2x:hover {
+  color: #83638c;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+li.list-group-item {
+  --bs-list-group-bg: transparent;
+  --bs-list-group-border-color: transparent;
+}
+/* Modal */
+.form-control-plaintext:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #c689c691;
+  outline: 0;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
+.form-control:focus {
+  border-color: #c689c691;
+  box-shadow: 0 0 0 0.063rem #c689c691;
+}
+/* banner */
+img.w-100 {
+  height: 100%;
+  object-fit: cover;
+}
+.banner {
+  height: 18.75rem;
+  margin: 0px;
+}
+
+/* Secciones  sobre mi  */
+#SobreMi {
+  padding: 0.625rem;
+  max-width: 100%;
+  text-align: center;
+  margin-left: 0%;
+
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+}
+
+@media (min-width: 576px) {
+  #fotodeperfil {
+    width: 8.125rem;
+    position: relative;
+    box-shadow: 0.188rem 0.188rem 0.188rem #83638c;
+    left: -0.188rem;
+    top: -3.125rem;
+    border-radius: 48% 52% 49% 51% / 100% 0% 100% 0%;
+  }
+}
+
+@media (max-width: 575px) {
+  #fotodeperfil {
+    width: 6.25rem;
+    top: 12.563rem;
+    position: absolute;
+    left: 10rem;
+    box-shadow: 0.063rem 0.313rem 0.125rem #83638c;
+  }
+}
+#nombre {
+  font-weight: bold;
+  margin-top: 0.875rem;
+}
+/* Secciones  educación */
+section.Educacion {
+  padding: auto;
+}
+/* Secciones  habilidades  */
+section.Habilidades {
+  padding: auto;
+}
+
+/* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
+
+/* dashboard */
+i.fa-solid.fa-user.fa-2x:hover {
+  color: #83638c;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.25);
+}
+
+.dropdown-menu {
+  --bs-dropdown-min-width: 4rem;
+  margin: -3.125rem;
+}
+
+button {
+  border-inline: none;
+  border-inline: none;
+  border-bottom: none;
+  border-top: none;
+  margin: 0.125rem;
+  color: #83638c;
+  line-height: 5rem;
+  background: transparent;
+}
+
+button:hover {
+  color: #c689c6;
+}
+
+/* vid 2:54:44 */
