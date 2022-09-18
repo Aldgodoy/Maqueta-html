@@ -117,6 +117,12 @@ img.w-100 {
     #c689c6 100%
   );
   background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
 }
 
 @media (min-width: 576px) {
@@ -166,7 +172,21 @@ div#ExperienciaLab.row {
 #experiencia {
   display: inline;
 }
-
+/* footer  */
+.footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+}
 /* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
 
 /* dashboard */
