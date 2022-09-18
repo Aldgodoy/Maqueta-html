@@ -36,22 +36,37 @@ h3.list-group-heading {
 .list-group.list-group-horizontal {
   background: none;
 }
+/* instagram */
+a.fa-brands.fa-instagram.fa-2x {
+  text-decoration: none;
+  color: #212529;
+}
 
-i.fa-brands.fa-instagram.fa-2x:hover {
+a.fa-brands.fa-instagram.fa-2x:hover {
   color: #e8a0bf;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
 }
-
-i.fa-brands.fa-linkedin-in.fa-2x:hover {
+/* linkedin */
+a.fa-brands.fa-linkedin-in.fa-2x:hover {
   color: #ffffff;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
 }
-i.fa-brands.fa-github.fa-2x:hover {
+a.fa-brands.fa-linkedin-in.fa-2x {
+  text-decoration: none;
+  color: #212529;
+}
+
+a.fa-brands.fa-github.fa-2x:hover {
   color: #fcc5c0;
   transition: transform 0.2s ease-in-out;
   transform: scale(1.25);
+}
+
+a.fa-brands.fa-github.fa-2x {
+  text-decoration: none;
+  color: #212529;
 }
 
 i.fa-solid.fa-user-lock.fa-2x:hover {
@@ -128,13 +143,28 @@ img.w-100 {
   font-weight: bold;
   margin-top: 0.875rem;
 }
-/* Secciones  educación */
-section.Educacion {
-  padding: auto;
+/* Seccion  educación */
+div#Educacion.row {
+  padding-right: 2rem;
+  padding: 1.25rem;
+  --bs-gutter-x: -2rem;
 }
-/* Secciones  habilidades  */
+#educacion {
+  display: inline;
+}
+
+/* Seccion  habilidades  */
 section.Habilidades {
   padding: auto;
+}
+
+/* Seccion experiencia */
+div#ExperienciaLab.row {
+  padding: 1.25rem;
+  padding-right: 2rem;
+}
+#experiencia {
+  display: inline;
 }
 
 /* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
