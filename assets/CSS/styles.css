@@ -151,20 +151,20 @@ img.w-100 {
 }
 /* Seccion  educación */
 div#Educacion.row {
-  padding-right: 2rem;
   padding: 1.25rem;
-  --bs-gutter-x: -2rem;
 }
 #educacion {
   display: inline;
 }
 
 /* Seccion  habilidades  */
-section.Habilidades {
-  padding: auto;
+div#Habilidades.row {
+  padding: 1.25rem;
 }
+
 /* Seccion  proyectos  */
 .parent {
+  padding: 1.25rem;
   display: grid;
   grid-template-columns: 0.25fr repeat(6, 1fr) 0.25fr;
   grid-template-rows: 0.5fr repeat(2, 1fr) 0.5fr;
@@ -202,10 +202,13 @@ div#ExperienciaLab.row {
 }
 /* footer  */
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   margin: auto;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.0625rem;
   background: #937dc2;
   background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
   background: -webkit-linear-gradient(
@@ -221,6 +224,7 @@ div#ExperienciaLab.row {
   color: #000000;
   font-weight: 700;
   font-style: italic;
+  clear: both;
 }
 
 /* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
@@ -276,4 +280,64 @@ button:hover {
 }
 .css-button-gradient--6:active {
   top: 0.125rem;
+}
+
+/* registro */
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: #937dc2;
+  background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #937dc2 0%,
+    #c689c6 48%,
+    #c689c6 100%
+  );
+  background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  font-family: Verdana, Geneva, sans-serif;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0, 0, 30px;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  left: 0;
+  font-size: 10px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+a.btn-submit {
+  color: #fff;
+  text-decoration: none;
 }
