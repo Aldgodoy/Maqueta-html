@@ -163,7 +163,35 @@ div#Educacion.row {
 section.Habilidades {
   padding: auto;
 }
+/* Seccion  proyectos  */
+.parent {
+  display: grid;
+  grid-template-columns: 0.25fr repeat(6, 1fr) 0.25fr;
+  grid-template-rows: 0.5fr repeat(2, 1fr) 0.5fr;
+  grid-column-gap: 7px;
+  grid-row-gap: 0px;
+}
 
+.div1 {
+  grid-area: 2 / 2 / 4 / 4;
+}
+.div2 {
+  grid-area: 2 / 4 / 4 / 6;
+}
+.div3 {
+  grid-area: 2 / 6 / 4 / 8;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+  opacity: 0.6;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 80%;
+}
 /* Seccion experiencia */
 div#ExperienciaLab.row {
   padding: 1.25rem;
@@ -177,6 +205,7 @@ div#ExperienciaLab.row {
   width: 100%;
   margin: auto;
   text-align: center;
+  padding-top: 1rem;
   background: #937dc2;
   background: -moz-linear-gradient(left, #937dc2 0%, #c689c6 48%, #c689c6 100%);
   background: -webkit-linear-gradient(
@@ -186,7 +215,14 @@ div#ExperienciaLab.row {
     #c689c6 100%
   );
   background: linear-gradient(to right, #937dc2 0%, #c689c6 48%, #c689c6 100%);
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 0.138rem;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 700;
+  font-style: italic;
 }
+
 /* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
 
 /* dashboard */
