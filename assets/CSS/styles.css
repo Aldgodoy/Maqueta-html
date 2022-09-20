@@ -202,7 +202,7 @@ div#ExperienciaLab.row {
 }
 /* footer  */
 .footer {
-  position: fixed;
+  margin-top: 1rem;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -225,6 +225,43 @@ div#ExperienciaLab.row {
   font-weight: 700;
   font-style: italic;
   clear: both;
+}
+/* boton para Descargar */
+.css-button-sliding-to-bottom--rose {
+  min-width: 5rem;
+  margin: 1rem;
+
+  color: #fff;
+  padding: 1px 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #c689c6;
+  color: #ff0a78;
+}
+.css-button-sliding-to-bottom--rose:hover {
+  color: #fff;
+}
+.css-button-sliding-to-bottom--rose:hover:after {
+  height: 100%;
+}
+.css-button-sliding-to-bottom--rose:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #ff0a78;
 }
 
 /* color pattern: https://colorhunt.co/palette/937dc2c689c6e8a0bffcc5c0 y https://colorhunt.co/palette/4c3a51774360b25068e7ab79 */
