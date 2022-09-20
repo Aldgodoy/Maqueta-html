@@ -255,10 +255,15 @@ button {
 button:hover {
   color: #c689c6;
 }
+#infoFormControlTextarea1 {
+  margin: 1rem;
+  outline: none;
+}
 
 /* boton home */
 .css-button-gradient--6 {
   min-width: 10.625rem;
+  margin: 1rem;
   line-height: 2rem;
   height: 2.5rem;
   color: #fff;
